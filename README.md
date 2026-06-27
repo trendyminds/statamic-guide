@@ -1,6 +1,6 @@
-# Statamic Guide
+# 📔 Statamic Guide
 
-An in-control-panel guide that helps content editors find their way around your Statamic website. It adds a **Guide** section to the control panel navigation, built entirely from markdown files **you** define in your project — so every site can document its own collections, blocks, workflows, and quirks.
+An in-control-panel guide that helps content editors find their way around your Statamic website. It adds a **Guide** section to the control panel navigation, built entirely from markdown files you define in your project so every site can document its own collections, blocks, workflows, and quirks.
 
 ## Installation
 

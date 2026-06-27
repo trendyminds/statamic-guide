@@ -18,16 +18,17 @@ class ServiceProvider extends AddonServiceProvider
 
     public function bootAddon()
     {
-        $this
-            ->bootRoutes()
-            ->bootNav();
+        $this->bootRoutes()->bootNav();
     }
 
     protected function bootRoutes(): self
     {
         $this->registerCpRoutes(function () {
-            Route::get('guide', [GuideController::class, 'index'])->name('guide.index');
-            Route::get('guide/{slug}', [GuideController::class, 'show'])->name('guide.show');
+            Route::get('guide', [GuideController::class, 'index'])
+                ->name('guide.index');
+
+            Route::get('guide/{slug}', [GuideController::class, 'show'])
+                ->name('guide.show');
         });
 
         return $this;
