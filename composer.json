@@ -1,6 +1,6 @@
 {
     "name": "trendyminds/statamic-guide",
-    "description": "An in-control-panel guide that helps content editors find their way around a TrendyMinds Statamic website.",
+    "description": "An in-control-panel guide that helps content editors find their way around Statamic",
     "license": "MIT",
     "autoload": {
         "psr-4": {
