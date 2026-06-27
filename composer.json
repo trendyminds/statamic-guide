@@ -1,0 +1,36 @@
+{
+    "name": "trendyminds/statamic-guide",
+    "description": "An in-control-panel guide that helps content editors find their way around a TrendyMinds Statamic website.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Trendyminds\\Guide\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Guide",
+            "description": "Guide addon"
+        },
+        "laravel": {
+            "providers": [
+                "Trendyminds\\Guide\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "statamic/cms": "^6.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.15"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    }
+}
